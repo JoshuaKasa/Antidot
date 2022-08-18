@@ -32,7 +32,6 @@ iostrean
 ```
 
 # **Notes 🗒️**
-Antidot has to be runned with administrator rights for working properly, and it is not configured to run (making it run is vey simple and everyone with basic Python knowledge </br>
-can do it, but i haven't configured it because this project is for ⚠️ EDUCATIONAL PURPORSES ONLY ⚠️).
+Antidot has to be runned with administrator rights for working properly, and it is not configured to run (making it run is vey simple and everyone with basic Python knowledge can do it, but i haven't configured it because this project is for ⚠️ EDUCATIONAL PURPORSES ONLY ⚠️).
 
 **⛔ WARNING, DON'T USE THIS AGAINST ANYONE AND I'M NOT RESPONSIBLE FOR ANYTHING THAT HAPPENS TO YOU OR ANYONE ELSE, I SPECIFY IT AGAIN THI IS FOR EDUCATIONAL PURPORSES ONLY ⛔**

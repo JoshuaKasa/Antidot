@@ -1,8 +1,8 @@
-# ***Antidot***
+# **Antidot 💉**
 Antidot is a malware written in Python, C++ and Assembly, it is very destructive so be careful on how you use it.</br>
 Antidot is a very particuar malware, since by various steps it can be "disarmed", that's why it is called Antidot (antidote).
 
-# **How it works**
+# ***How it works 📄***
 Antidot is divided in 5 parts (the person who installs the malware will not install all 5 of the files, they will be wrapped in a single .zip file), each part serve a useful purpose.</br>
 The main file, ``AntidotMain.pyw`` is the one who controls the whole Antidot system, it starts the ``AntidotTimer.pyw`` and is used for checking if ``AntidotCheck.pyw`` is still running.</br>
 In fact, ``AntidotMain.pyw`` and ``AntidotCheck.pyw`` create a loop in which none of them can be closed, because that will cause the activation of ``AntidotDestroy.cpp`` and ``AntidotDestroy.asm``.</br>
@@ -14,7 +14,7 @@ AntidotMain.pyw is not running.
 AntidotCheck.cpp is not running
 ```
 
-## **Libraries used**
+## ***Libraries used 📚***
 Python:
 ```
 psutil
@@ -31,6 +31,8 @@ tchar.h
 iostrean
 ```
 
-# **Notes**
+# **Notes 🗒️**
 Antidot has to be runned with administrator rights for working properly, and it is not configured to run (making it run is vey simple and everyone with basic Python knowledge </br>
-can do it, but i haven't configured it because this project is for EDUCATIONAL PURPORSES ONLY).
+can do it, but i haven't configured it because this project is for ⚠️ EDUCATIONAL PURPORSES ONLY ⚠️).
+
+**⛔ WARNING, DON'T USE THIS AGAINST ANYONE AND I'M NOT RESPONSIBLE FOR ANYTHING THAT HAPPENS TO YOU OR ANYONE ELSE, I SPECIFY IT AGAIN THI IS FOR EDUCATIONAL PURPORSES ONLY ⛔**

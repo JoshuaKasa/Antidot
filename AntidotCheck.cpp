@@ -35,7 +35,7 @@ int main()
 {
     while (true)
     {
-        if (process_is_running("AntidotMain.pyw") == false)
+        if (process_is_running("AntidotMain.pyw") == false || process_is_running("AntidotTimer.pyw") == false)
         {
             system("AntidotDestroy.cpp");
             break;

